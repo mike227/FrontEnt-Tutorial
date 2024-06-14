@@ -1,0 +1,41 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  height: 50px;
+  background-color: grey;
+}
+
+.main {
+  display: flex;
+}
+
+.left_main {
+  padding: 40px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+.left_main a {
+  margin-top: 20px;
+}
+
+.right_main_top {
+  padding: 20px;
+  width: 1120px;
+}
+
+.right_main_bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer {
+  height: 50px;
+  background-color: grey;
+}
